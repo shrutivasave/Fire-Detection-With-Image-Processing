@@ -22,9 +22,9 @@ The next step is to generate a Custom Haar Cascade Classifier. This process extr
 from positive and negative images and creates an XML file, which is used later in the process.
 Although this can be done in the command line interface with Open Computer Vision, ding so is
 extremely tedious and hence we employ a program known as Cascade Trainer GUI to construct
-the file.
+the file.\
 ![Cascade Trainer GUI](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/GUI.JPG)
-Cascade Trainer GUI
+Cascade Trainer GUI\
 Meanwhile, we also create a python program to accept live video feed from an attached
 camera. Built using Open Computer Vision functions, this script will be able to execute
 operations on individual frames while still delivering real time results.
