@@ -23,11 +23,32 @@ from positive and negative images and creates an XML file, which is used later i
 Although this can be done in the command line interface with Open Computer Vision, ding so is
 extremely tedious and hence we employ a program known as Cascade Trainer GUI to construct
 the file.\
-![Cascade Trainer GUI](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/GUI.JPG)
+![Cascade Trainer GUI](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/GUI.JPG)\
 Cascade Trainer GUI\
 Meanwhile, we also create a python program to accept live video feed from an attached
 camera. Built using Open Computer Vision functions, this script will be able to execute
 operations on individual frames while still delivering real time results.
 After obtaining the Custom Haar Cascade Classifier file, we integrate it into our python
 program. The module compares each frame of the video using our classifier, and when a fire is
-detected, a variety of alarms can be triggered, ranging from visual to audio.
+detected, a variety of alarms can be triggered, ranging from visual to audio.\
+![Block Diagram](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/blockdiagram.JPG)\
+This results in a very robust model able to detect fire and display its position on the image
+display.
+![Result](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/Result.JPG)
+## ACCURACY CALCULATION
+We applied the standard image processing testing procedure using evaluation parameters to
+determine the accuracy of our project.
+![equation](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/equation1.JPG)\
+Where:
+TP is number of true positive test results (known subjects correctly identified)
+TN is number of true negative test results (unknown subjects not recognized)
+Ti is total number of test samples
+Using the above test, we determined the accuracy of the system to be 85%.
+This accuracy can further be improved by including more training images.
+## FUTURE SCOPE
+The current system can be integrated into existing camera setups, leading to a virtually free fire
+detection system in setups already utilizing camera systems
+We can also mobilize the system by interfacing it with mobile cameras such as cars and drones.
+This system can also be improved upon by integrating various other existing fire detection
+methods such as smoke, heat and light sensors along with a suitable alarm system to notify the
+authorities.
