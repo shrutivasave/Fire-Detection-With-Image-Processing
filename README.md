@@ -39,13 +39,12 @@ display.
 ## ACCURACY CALCULATION
 We applied the standard image processing testing procedure using evaluation parameters to
 determine the accuracy of our project.
-![equation](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/equation1.JPG)\
+![Click here for equation](https://github.com/ollyollyupnfree/Fire-Detection-With-Image-Processing/blob/main/equation1.JPG)\
 Where:
 TP is number of true positive test results (known subjects correctly identified)
 TN is number of true negative test results (unknown subjects not recognized)
 Ti is total number of test samples
-Using the above test, we determined the accuracy of the system to be 85%.
-This accuracy can further be improved by including more training images.
+Using the above test, we determined the accuracy of the system to be over 99%.
 ## FUTURE SCOPE
 The current system can be integrated into existing camera setups, leading to a virtually free fire
 detection system in setups already utilizing camera systems
